@@ -7,9 +7,6 @@ out/
 *.js
 *.js.map
 
-# VSCode configuration
-.vscode/
-
 # Extension binaries
 *.vsix
 
