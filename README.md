@@ -29,7 +29,7 @@
 - [ Extension Settings](#extension-settings)
 - [ Known Issues](#known-issues)
 - [ Release Notes](#release-notes)
-  - [ 0.0.1](#0.0.1)
+  - [ 0.0.1](#001)
 - [ License](#license)
 
 ---
