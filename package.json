@@ -1,8 +1,15 @@
 {
   "name": "deepseek-chat-ext",
   "displayName": "deepseek-chat-ext",
-  "description": "",
+  "description": "VS Code extension that integrates a locally running DeepSeek model using Ollama for chat inside the IDE.",
   "version": "0.0.1",
+  "publisher": "eyelor",
+  "private": true,
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eyelor/deepseek-chat-ext.git"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -27,7 +34,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "package": "vsce package"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
@@ -37,6 +45,7 @@
     "@typescript-eslint/parser": "^8.22.0",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1",
+    "@vscode/vsce": "^3.2.2",
     "eslint": "^9.19.0",
     "typescript": "^5.7.3"
   },
