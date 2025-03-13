@@ -23,9 +23,13 @@
 - [ Getting Started](#getting-started)
   - [ Prerequisites](#prerequisites)
   - [ Installation](#installation)
-  - [ Debugging & Manual Testing](#debugging-&-manual-testing)
+  - [ Debugging and Manual Testing](#debugging-and-manual-testing)
   - [ Usage](#usage)
 - [ Project Roadmap](#project-roadmap)
+- [ Extension Settings](#extension-settings)
+- [ Known Issues](#known-issues)
+- [ Release Notes](#release-notes)
+  - [ 0.0.1](#0.0.1)
 - [ License](#license)
 
 ---
@@ -155,7 +159,7 @@ ollama pull deepseek-coder-v2:16b
 ```
 
 
-###  Debugging & Manual Testing
+###  Debugging and Manual Testing
 To start debugging and testing, open the project in VS Code and press `F5` to launch the extension in a new separate window in `watch` mode. You can also find helpful information in the `vsc-extension-quickstart.md` file. To find the chat window, type `Ctrl`+`Shift`+`P`, then select `DeepSeek Chat`. When you hit `Enter`, the chat window will open.
 
 
@@ -168,7 +172,7 @@ If you want to run deepseek-chat-ext in your VS Code as normal extension you nee
 npm run package
 ```
 
-After the `.vsix` file is generated, go to the `Extensions` tab is VS Code, then click `...` -> `Install from VSIX...`, and choose the generated `.vsix` file. From this point on, the extension will be available as described in the [ Debugging & Manual Testing](#debugging-&-manual-testing) section.
+After the `.vsix` file is generated, go to the `Extensions` tab is VS Code, then click `...` -> `Install from VSIX...`, and choose the generated `.vsix` file. From this point on, the extension will be available as described in the [ Debugging and Manual Testing](#debugging-and-manual-testing) section.
 
 
 ---
