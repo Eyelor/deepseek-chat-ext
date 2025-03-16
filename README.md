@@ -38,6 +38,10 @@
 
 Deepseek-chat-ext boosts developer productivity by integrating a powerful AI chat interface directly into VS Code.  Ask coding questions, get instant answers, and streamline your workflow.  This VS Code extension leverages a DeepSeek model via Ollama, providing on-demand code assistance and information retrieval within your editor.
 
+![Finding](./screenshots/Finding.jpg)
+![Extension](./screenshots/Extension.jpg)
+![Test](./screenshots/Test.jpg)
+
 ---
 
 ##  Features
